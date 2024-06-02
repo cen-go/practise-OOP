@@ -17,7 +17,7 @@ button {
   font-size: 1.5rem;
   padding: 1rem 2rem;
   border: 1px solid #ff0055;
-  background: #ff0055;
+  background: #ff2b72;
   color: white;
   cursor: pointer;
   border-radius: 10px;
@@ -34,4 +34,21 @@ button:active {
   background: #e92f6d;
   border-color: #e92f6d;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+}
+.long-div {
+  height: 170vh;
+  width: 82%; 
+  margin: 0 auto;
+  background-color: rgb(196, 249, 231);
+}
+
+ul {
+  list-style: none;
+}
+li {
+  border: 1px solid #ccc;
+  padding: 12px;
+}.highlight {
+  color: whitesmoke;
+  background-color: darkblue;
 }
