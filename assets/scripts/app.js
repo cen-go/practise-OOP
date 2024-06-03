@@ -100,6 +100,13 @@ class ProjectItem {
     this.hasActiveToolTip = true;    
   }
 
+  connectDrag() {
+    document.getElementById(this.id).addEventListener("dragstart", event => {
+      event.dataTransfer.setData("text/plain", this.id);
+      event.dataTransfer.effectAllowed = "move";
+    });
+  }
+
   connectMoreInfoButton() {
     const projectItemElement = document.getElementById(this.id);
     const moreInfoBtn = projectItemElement.querySelector("button:first-of-type");
