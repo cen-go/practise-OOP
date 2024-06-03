@@ -128,3 +128,6 @@ button:active {
   color: white;
   margin: 0;
 }
+.droppable {
+  background-color: rgb(190, 250, 230);
+}
